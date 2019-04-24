@@ -1,0 +1,9 @@
+set_var EASYRSA_PKI		    $TEMP_PKI_DIR
+set_var EASYRSA_DN	        cn_only
+set_var EASYRSA_ALGO		ec
+set_var EASYRSA_CURVE		secp521r1
+set_var EASYRSA_DIGEST      sha512
+set_var EASYRSA_CA_EXPIRE	3650
+set_var EASYRSA_CERT_EXPIRE	3650
+set_var EASYRSA_REQ_CN      $OVPN_SERVERCN
+set_var EASYRSA_BATCH       true
