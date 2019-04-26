@@ -128,11 +128,9 @@ nobind
 persist-key
 persist-tun
 remote-cert-tls server
-auth SHA512
 cipher AES-256-GCM
 tls-version-min 1.2
 tls-cipher TLS-ECDHE-ECDSA-WITH-AES-256-GCM-SHA384
-compress lzo
 verb 3
     "
     echo "#=== Client Config End ===#"
