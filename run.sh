@@ -143,7 +143,7 @@ _healthCheck() {
         sleep 5
     done
 
-    echo "Error: opevpn is not running, exiting..."
+    echo "Error: openvpn is not running, exiting..."
     exit 1
 }
 
