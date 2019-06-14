@@ -24,3 +24,7 @@ $ docker run --name openvpn -d -p 1194:1194/tcp                     \
  
 - Exposed Ports:
   - 1194/tcp 1194/udp
+
+Client configuration will be available in logs.
+
+An example how to use with docker-compose [shadownet-compose](https://github.com/grffio/shadownet-compose)
