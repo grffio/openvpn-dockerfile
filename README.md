@@ -1,12 +1,17 @@
 # openvpn-dockerfile
 Dockerfile for OpenVPN server on Alpine Linux
 
+Features
+--------
+- Automatic creation of a configuration file
+- Support ECDSA and AES-GCM
+
 Build
 -----
 ```
 $ docker build -t grffio/openvpn .
 ```
-- Supported Args: `OPENVPN_VER=2.4.7-r0`, `EASYRSA_VER=3.0.6-r0`
+- Supported Args: `OPENVPN_VER=2.4.7-r1`, `EASYRSA_VER=3.0.6-r0`
 
 Quick Start
 -----------
