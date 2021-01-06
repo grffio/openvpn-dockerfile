@@ -11,7 +11,7 @@ Build
 ```
 $ docker build -t grffio/openvpn .
 ```
-- Supported Args: `OPENVPN_VER=2.4.7-r1`, `EASYRSA_VER=3.0.6-r0`
+- Supported Args: `OPENVPN_VER=`, `EASYRSA_VER=`
 
 Quick Start
 -----------
